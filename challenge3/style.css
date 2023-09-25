@@ -1,11 +1,23 @@
 /* Add your code in each class */
 .container {
+  height: 300px;
+  width: 400px;
+  /* clip: auto; */
 }
 .head {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: bisque;
+  position: sticky;
+  top: 0;
 }
 
 .row {
   /* .row is used in ./index.js not in the html filee */
+  background-color: aqua;
+}
+.list {
+  overflow: scroll;
+  /* height: 300px; */
 }
 
 /* This is a gift - Does not need editing */
