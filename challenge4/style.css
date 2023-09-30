@@ -1,4 +1,9 @@
 /* Add your code in each class */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   position: relative;
 }
@@ -16,8 +21,8 @@ body {
   align-items: center;
   flex-wrap: wrap;
   position: relative;
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   background-color: white;
 }
 .movie-image {
@@ -33,6 +38,9 @@ body {
 }
 .descriptions {
   color: white;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
 }
 
 /*A gift from us!*/
@@ -52,4 +60,5 @@ body {
 }
 .movie-title {
   font-weight: bold;
+  margin-bottom: 2px;
 }
